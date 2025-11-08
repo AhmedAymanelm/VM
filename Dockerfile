@@ -15,7 +15,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY requirments.txt .
 
-RUN pip install --no-cache-dir -r requirments.txt
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir -r requirments.txt
 
 COPY src/ ./src/
 
