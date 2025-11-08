@@ -1,0 +1,7 @@
+streamlit==1.51.0
+tensorflow==2.20.0
+keras==3.12.0
+opencv-python==4.12.0.88
+ultralytics==8.3.226
+pillow==12.0.0
+numpy<2.0.0
